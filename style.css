@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url("newone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .design {
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 100px;
+} */
+.sign_in {
+  width: 50%;
+  height: 700px;
+  background: rgba(72, 67, 92, 0.5);
+  border-radius: 25px;
+  font-size: 50px;
+  font-weight: bold;
+  color: aliceblue;
+  text-align: center;
+  left: 25%;
+  position: relative;
+}
+p {
+  font-size: 25px;
+  position: relative;
+  left: -170px;
+}
+input[type="text"] {
+  height: 30px;
+  width: 450px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  outline: none;
+  background-color: #d0e1d4;
+}
+
+input[type="password"] {
+  height: 30px;
+  width: 450px;
+  border-radius: 10px;
+  z-index: +11;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  outline: none;
+  background-color: #d0e1d4;
+}
+.signup {
+  left: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  transition: all ease 0.4s;
+}
+.title {
+  top: 40px;
+  position: relative;
+}
+#submit {
+  font-family: "Montserrat", sans-serif;
+  color: #d0e1d4;
+  padding: 5px;
+  background-color: #0f110c;
+  border-radius: 5px;
+}
+#submit:hover {
+  font-family: "Montserrat", sans-serif;
+  color: #d0e1d4;
+  padding: 5px;
+  background-color: rgba(15, 17, 12, 0.4);
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}

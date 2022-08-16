@@ -1,0 +1,81 @@
+* {
+  transition: all ease 0.4s;
+}
+body {
+  background-color: lightblue;
+}
+.signup {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  height: 1000px;
+  background: rgb(152, 131, 228);
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: azure;
+  left: 25%;
+}
+input[type="text"] {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 10px;
+}
+input[type="password"] {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 10px;
+}
+
+p {
+  position: relative;
+  right: 140px;
+  font-weight: bold;
+  font-size: 28px;
+}
+h1 {
+  top: 50px;
+  position: relative;
+  font-size: 60px;
+}
+#age {
+  position: relative;
+  right: 80px;
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 4px;
+  width: 200px;
+}
+.password {
+  left: -110px;
+}
+.btn {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px;
+  background: white;
+  border-radius: 20;
+}
+.btn:hover {
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+
+  cursor: pointer;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  transition: all ease 0.6s;
+}
+.confirm {
+  left: -45px;
+}
